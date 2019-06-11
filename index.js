@@ -1,5 +1,10 @@
 var kittens = ['Milo', 'Otis', 'Garfield'] //define your array here
 
+
+// NOTE TO FLATIRON STAFF - I INITIALLY RESET THE ARRAY TO ['Milo', 'Otis', 'Garfield'] FOR EACH TEST
+// BUT I FOUND IT GOOD PRACTICE TO ASSIGN A LOCAL VARIABLE WITHIN EACH FUNCTION PER TEST, WHICH ALSO PASSED THE MOCHA TESTS
+
+
 // Add your functions and code here
 function destructivelyAppendKitten(name) {
   var newKittens = kittens.push('Ralph')
